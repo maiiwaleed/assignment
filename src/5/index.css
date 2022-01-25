@@ -1,0 +1,96 @@
+/* DO NOT CHANGE THIS ROOT CLASS NAME*/
+.TASK_5 {
+  background-color: #a6c6c1;
+  text-align: center;
+}
+input:hover {
+  background-color: #e6e0cf;
+}
+input {
+  margin-right: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+label {
+  font-size: 1rem;
+  color: #e6e0cf;
+  cursor: pointer;
+}
+.btnForm {
+  display: block;
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #e6e0cf;
+  border-radius: 0.6em;
+  color: #e6e0cf;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1rem;
+  margin: auto;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  border-color: black;
+  color: black;
+  transition: background 300ms ease-in-out;
+}
+.btnForm:hover,
+.btnForm:focus {
+  color: #fff;
+  outline: 0;
+}
+form label,
+form input {
+  float: left;
+  clear: both;
+}
+form input {
+  margin: 15px 0;
+  padding: 15px 10px;
+  width: 100%;
+  outline: none;
+  border: 1px solid #bbb;
+  border-radius: 20px;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -ms-transition: 0.2s ease all;
+  -o-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+form input:focus {
+  border-color: yellow;
+}
+input[type=submit] {
+  padding: 15px 50px;
+  width: auto;
+  background: #1abc9c;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  clear: right;
+  -webkit-transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -ms-transition: 0.2s ease all;
+  -o-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+input[type="submit"]:active {
+  opacity: 0.4;
+}
